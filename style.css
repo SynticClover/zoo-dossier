@@ -5,7 +5,7 @@
 }
 body{
     margin: 0;
-    background-color: mintcream;
+    background-color: rgba(69, 52, 86, 0.611);
 }
 .sec-nav a {
     padding: 1em;
@@ -38,24 +38,7 @@ body{
     height: auto;
     animation: oscillateColors 4s infinite;
   }
-figure p {
-    text-decoration: none;
-    font-size: 1.3rem;
-    color: black;
-    position: absolute;
-  }
-  a {
-    text-decoration: none;
-  }
-a figure{
-    position: relative;
-    height: 500px;
-}
-figure img{
-    position:absolute;
-    object-fit: cover;
-    height: 500px;
-}
+
 
 .main-nav a:hover figure {
 background-color: rgba(0, 0, 0, 0.50);
@@ -65,13 +48,25 @@ background-color: rgba(0, 0, 0, 0.50);
 
 
 
+.status{
+  color: rgb(137, 210, 26);
+  background-size: cover;
+  background-color: rgba(178, 255, 227,.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 180px;
 
+}
   
   
 
-  
+  table, th, td {
+    border: 1px solid black;
+  }
   th{
-    text-align: center;
+    text-align: left;
   }
 
   a.square {
@@ -80,9 +75,10 @@ background-color: rgba(0, 0, 0, 0.50);
     justify-content: center;
     align-items: center;
     background-position: center;
-    height: 500px;
-    width: 500px;
-    color: wheat;
+    height: 600px;
+    width: 600px;
+    color: gainsboro;
+   
   } 
   a.square .content{
     background-color: rgba(0, 0, 0, 0.5);
@@ -102,4 +98,14 @@ a.lizard {
 }
 a.impala {
     background-image: url(images/impala4.jpg)
+}
+a.pigeon {
+  background-image: url(images/nicobar1.jpg)
+}
+a.shark {
+  background-image: url(images/wspotted_bamboo2.jpg)
+}
+.content p {
+  text-align: center;
+  
 }
